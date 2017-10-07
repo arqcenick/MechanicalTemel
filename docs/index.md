@@ -18,6 +18,12 @@ Bilkent University
 [Sutskever, I., Martens, J., & Hinton, G. E. (2011). Generating text with recurrent neural networks.
 In Proceedings of the 28th International Conference on Machine Learning ](http://www.cs.toronto.edu/~ilya/pubs/2011/LANG-RNN.pdf)
 
+[Serban, I. V., García-Durán, A., Gulcehre, C., Ahn, S., Chandar, S., Courville, A., & Bengio, Y.
+(2016). Generating factoid questions with recurrent neural networks: The 30m factoid question-answer
+corpus. arXiv preprint arXiv:1603.06807.](https://pdfs.semanticscholar.org/f802/a78c9f2491e9ccd1c9123f92f68eabf36f5d.pdf)
+
+[Gu, J., Lu, Z., Li, H., & Li, V. O. (2016). Incorporating copying mechanism in
+sequence-to-sequence learning. arXiv preprint arXiv:1603.06393.](https://arxiv.org/abs/1603.06393)
 
 Await further updates...
 
