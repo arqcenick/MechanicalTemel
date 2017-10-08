@@ -13,7 +13,7 @@ for CS 578 Natural Language Processing Course(FALL 2018)
 Bilkent University
 
 ### References
-[Kao, J. T., Levy, R., & Goodman, N. D. (2013). The Funny Thing About Incongruity: A Computational Model of Humor in Puns. In CogSci.] (https://web.stanford.edu/~ngoodman/papers/KaoLevyGoodman.pdf)
+[Kao, J. T., Levy, R., & Goodman, N. D. (2013). The Funny Thing About Incongruity: A Computational Model of Humor in Puns. In CogSci.](https://web.stanford.edu/~ngoodman/papers/KaoLevyGoodman.pdf)
 
 [Petrovic, S., & Matthews, D. (2013, August). Unsupervised joke generation from big data. In ACL](http://aclweb.org/anthology/P13-2041)
 
