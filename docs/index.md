@@ -15,6 +15,12 @@ Bilkent University
 ### References
 [Kao, J. T., Levy, R., & Goodman, N. D. (2013). The Funny Thing About Incongruity: A Computational Model of Humor in Puns. In CogSci.](https://web.stanford.edu/~ngoodman/papers/KaoLevyGoodman.pdf)
 
+They used a KL-divergence model for measuring the funniness, 
+Their model did not generate new puns instead they propose a method to correlate funniness to objective metrics such as ambiguity of a word(defined objectively) and distinctiveness(also defined). 
+We believe quantitative metrics are useful in our project.
+
+
+
 [Petrovic, S., & Matthews, D. (2013, August). Unsupervised joke generation from big data. In ACL](http://aclweb.org/anthology/P13-2041)
 
 This work is one of the main approaches we can take in this project, however we believe the scope of  Unsupervised joke generation from big data is too narrow. The model described in the paper limits itself into jokes which in the form of " I like my X like I like my Y,Z". The Turkish Fıkra are long and often has a story. Still we can use the metrics described in the paper for evaluation of humor in our model.
