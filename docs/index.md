@@ -1,6 +1,6 @@
 ## Welcome to Mechanical Temel Project Site
 
-This is a project which aims to generate and classifiy Turkish jokes also known as "fıkra" using recurrent neural networks.
+This is a project which aims to generate and evaluate Turkish jokes also known as "fıkra" using recurrent neural networks.
 
 ### Authors
 This Project is authored by
@@ -39,7 +39,7 @@ corpus. arXiv preprint arXiv:1603.06807.](https://pdfs.semanticscholar.org/f802/
 [Gu, J., Lu, Z., Li, H., & Li, V. O. (2016). Incorporating copying mechanism in
 sequence-to-sequence learning. arXiv preprint arXiv:1603.06393.](https://arxiv.org/abs/1603.06393)
 
-In this study they propose a new model called COPYNET, which integrates the regular way of word generation in the decoder with the new copyingmechanism which can choose subsequences in the input sequence and put them at proper places in the output sequence. We are planning to use a similiar mechanism to enable user to decide on the topic of the joke (fıkra). With such a mechanism we can force our network to generate a joke around some particular words specified by the user.
+In this study they propose a new model called COPYNET. Their model integrates the regular way of word generation in the decoder with the new copying mechanism which can choose subsequences in the input sequence and put them at proper places in the output sequence. They evaluate their model specifically for the text summarization task. Although our aim in this project is not to summarize the jokes, we can make use of their model to enable user to decide on the topic of the joke (fıkra). Using specific parts of their COPYNET model, we can force our network to generate a joke around some particular words specified by the user.
 
 
 Await further updates...
