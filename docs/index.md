@@ -16,7 +16,7 @@ Bilkent University
 [Kao, J. T., Levy, R., & Goodman, N. D. (2013). The Funny Thing About Incongruity: A Computational Model of Humor in Puns. In CogSci.](https://web.stanford.edu/~ngoodman/papers/KaoLevyGoodman.pdf)
 
 They used a KL-divergence model for measuring the funniness, 
-Their model did not generate new puns instead they propose a method to correlate funniness to objective metrics such as ambiguity of a word(defined objectively) and distinctiveness(also defined). 
+Their model did not generate new puns instead they propose a method to correlate funniness to objective metrics such as ambiguity of a word(defined objectively) and distinctiveness(also defined). The model uses three types of sentences, which are puns, de-puns and non-puns. The puns are simple homonym based jokes, the de-puns are puns where the "distinct" verb or object is replaced with more common word, making it non-funny. The non-puns are just normal sentences with no funniness intened. The word relatedness measure in these different type of sentences create quantitative features which can be used to classifiy sentences in to the aforementioned catagories.
 We believe quantitative metrics are useful in our project.
 
 
