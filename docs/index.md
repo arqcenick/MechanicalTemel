@@ -31,7 +31,9 @@ corpus. arXiv preprint arXiv:1603.06807.](https://pdfs.semanticscholar.org/f802/
 [![Generating Language with Attention](https://img.youtube.com/vi/ah7_mfl7LD0/hqdefault.jpg)](https://www.youtube.com/watch?v=ah7_mfl7LD0)
 
 Generating Language with Attention Lecture:
+
 "This lecture introduces one of the most important and influencial mechanisms employed in Deep Neural Networks: Attention. Attention augments recurrent networks with the ability to condition on specific parts of the input and is key to achieving high performance in tasks such as Machine Translation and Image Captioning."
+
 We believe this video provides some great insights about constructing our own generative model. 
 
 ---
