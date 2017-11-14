@@ -15,16 +15,9 @@ Bilkent University
 ### Source Material
 ---
 ### Posted on: 14.11.2017
-
-[Sutskever, I., Martens, J., & Hinton, G. E. (2011). Generating text with recurrent neural networks.
-In Proceedings of the 28th International Conference on Machine Learning ](http://www.cs.toronto.edu/~ilya/pubs/2011/LANG-RNN.pdf)
-
-
-
-
-[Serban, I. V., García-Durán, A., Gulcehre, C., Ahn, S., Chandar, S., Courville, A., & Bengio, Y.
-(2016). Generating factoid questions with recurrent neural networks: The 30m factoid question-answer
-corpus. arXiv preprint arXiv:1603.06807.](https://pdfs.semanticscholar.org/f802/a78c9f2491e9ccd1c9123f92f68eabf36f5d.pdf)
+[Turkish Fikra Dataset](https://github.com/arqcenick/MechanicalTemel/edit/master/data/Turkish_Fikra_Dataset.zip)
+DISCLAIMER: Contains explicit language
+Here we post our dataset which contains 8000~ Turkish Fikras with many genres. The Fikras are downloaded from [www.fikrabul.com](http://www.fikrabul.com)
 
 
 
@@ -35,6 +28,17 @@ Generating Language with Attention Lecture:
 "This lecture introduces one of the most important and influencial mechanisms employed in Deep Neural Networks: Attention. Attention augments recurrent networks with the ability to condition on specific parts of the input and is key to achieving high performance in tasks such as Machine Translation and Image Captioning."
 
 We believe this video provides some great insights about constructing our own generative model. 
+
+
+[Sutskever, I., Martens, J., & Hinton, G. E. (2011). Generating text with recurrent neural networks.
+In Proceedings of the 28th International Conference on Machine Learning ](http://www.cs.toronto.edu/~ilya/pubs/2011/LANG-RNN.pdf)
+
+
+
+
+[Serban, I. V., García-Durán, A., Gulcehre, C., Ahn, S., Chandar, S., Courville, A., & Bengio, Y.
+(2016). Generating factoid questions with recurrent neural networks: The 30m factoid question-answer
+corpus. arXiv preprint arXiv:1603.06807.](https://pdfs.semanticscholar.org/f802/a78c9f2491e9ccd1c9123f92f68eabf36f5d.pdf)
 
 ---
 ### Posted on: 16.10.2017
