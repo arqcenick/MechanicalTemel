@@ -14,6 +14,13 @@ Bilkent University
 
 ### Source Material
 ---
+### Posted on: 07.12.2017
+[Levy, O., Goldberg, Y. (2014). Linguistic Regularities in Sparse and Explicit Word Representations. CoNLL 2014](https://levyomer.files.wordpress.com/2014/04/linguistic-regularities-in-sparse-and-explicit-word-representations-conll-2014.pdf)
+
+In this paper Levy and Goldberg demonstrates the equivalence of analogy tasks and the distance metrics. They also show that using conventional word embedding methods such as PPMI can still find many meaningful representations of the language. We believe this is a very interesting discovery.
+The method they propose for analogy tasks is a multiplicative method rather than the addition based method originally proposed by Mikolov(2013). However we still believe that there exists some inherent advantages (as well as disadvantages) in neural network based methods such as word2vec.
+
+---
 ### Posted on: 14.11.2017
 [Turkish Fikra Dataset](https://github.com/arqcenick/MechanicalTemel/edit/master/data/Turkish_Fikra_Dataset.zip)
 DISCLAIMER: Contains explicit language
