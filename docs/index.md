@@ -9,7 +9,7 @@ Yarkın Deniz Çetin
 
 Lütfi Kerem Şenel
 
-for CS 578 Natural Language Processing Course(FALL 2018)
+for CS 578 Natural Language Processing Course(2017-2018 FALL)
 Bilkent University
 
 ### Source Material
