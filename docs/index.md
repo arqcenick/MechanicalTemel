@@ -14,6 +14,9 @@ Bilkent University
 
 ### Source Material
 ---
+### Posted on: 08.12.2017
+[This](http://ruder.io/#open) is an informative and easy to read blog from Sebastian Ruder for beginner and intermediate level NLP researchers and those who are interested in NLP. The post are informative, simple to comrehend and they provide a nice overwiev for many various research areas in NLP. 
+
 ### Posted on: 07.12.2017
 [Levy, O., Goldberg, Y. (2014). Linguistic Regularities in Sparse and Explicit Word Representations. CoNLL 2014](https://levyomer.files.wordpress.com/2014/04/linguistic-regularities-in-sparse-and-explicit-word-representations-conll-2014.pdf)
 
