@@ -10,6 +10,7 @@ import tensorflow as tf
 import model
 from data_reader import load_data, DataReader
 
+os.environ["CUDA_VISIBLE_DEVICES"]="0"
 
 flags = tf.flags
 

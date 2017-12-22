@@ -10,6 +10,8 @@ import tensorflow as tf
 import model
 from data_reader import load_data, DataReader
 
+os.environ["CUDA_VISIBLE_DEVICES"]="0"
+
 
 flags = tf.flags
 
@@ -89,17 +91,26 @@ def main(_):
         logits = np.ones((word_vocab.size,))
         rnn_state = session.run(m.initial_rnn_state)
         for i in range(FLAGS.num_samples):
-            logits = logits / FLAGS.temperature
-            prob = np.exp(logits)
-            prob /= np.sum(prob)
-            prob = prob.ravel()
-            ix = np.random.choice(range(len(prob)), p=prob)
+            if i > 0:
+                logits = logits / FLAGS.temperature
+                prob = np.exp(logits)
+                prob /= np.sum(prob)
+                prob = prob.ravel()
 
-            word = word_vocab.token(ix)
+                ix = np.random.choice(range(len(prob)), p=prob)
+                word = word_vocab.token(ix)
+            else:
+                word_input = input("Enter the first word:")
+                word = word_vocab.token(word_vocab.get(word_input))
+            
+            
             if word == '|':  # EOS
                 print('<unk>', end=' ')
             elif word == '+':
                 print('\n')
+            elif word == '#':
+                print('\nFıkra is generated')
+                break
             else:
                 print(word, end=' ')
 
